@@ -1,0 +1,172 @@
+.admin-login-page {
+  min-height: 100vh;
+
+  background:
+    linear-gradient(
+      rgba(18, 13, 9, 0.88),
+      rgba(18, 13, 9, 0.95)
+    );
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 30px;
+
+  box-sizing: border-box;
+}
+
+
+.admin-login-box {
+  width: 100%;
+  max-width: 430px;
+
+  background: #1d1510;
+
+  border: 1px solid rgba(217, 163, 84, 0.3);
+
+  border-radius: 18px;
+
+  padding: 45px;
+
+  box-sizing: border-box;
+
+  box-shadow:
+    0 25px 60px rgba(0, 0, 0, 0.45);
+}
+
+
+.admin-login-logo {
+  color: #d9a354;
+
+  font-size: 30px;
+  font-weight: bold;
+
+  letter-spacing: 5px;
+
+  text-align: center;
+}
+
+
+.admin-login-label {
+  text-align: center;
+
+  color: #8f8175;
+
+  font-size: 11px;
+
+  letter-spacing: 4px;
+
+  margin-top: 8px;
+}
+
+
+.admin-login-box h1 {
+  color: white;
+
+  text-align: center;
+
+  font-size: 32px;
+
+  margin: 30px 0 8px;
+}
+
+
+.admin-login-description {
+  text-align: center;
+
+  color: #aaa;
+
+  margin-bottom: 30px;
+}
+
+
+.admin-login-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.admin-login-box label {
+  color: #ddd;
+
+  margin-bottom: 8px;
+
+  font-size: 14px;
+}
+
+
+.admin-login-box input {
+  background: #120d09;
+
+  color: white;
+
+  border: 1px solid #49372a;
+
+  border-radius: 8px;
+
+  padding: 14px;
+
+  font-size: 15px;
+
+  margin-bottom: 20px;
+
+  outline: none;
+}
+
+
+.admin-login-box input:focus {
+  border-color: #d9a354;
+}
+
+
+.admin-login-box button {
+  margin-top: 5px;
+
+  padding: 14px;
+
+  background: #d9a354;
+
+  color: #120d09;
+
+  border: none;
+
+  border-radius: 8px;
+
+  font-size: 16px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+
+.admin-login-box button:hover {
+  background: #edbd72;
+}
+
+
+.login-error {
+  background: rgba(150, 60, 50, 0.2);
+
+  border: 1px solid #704038;
+
+  color: #e9a097;
+
+  padding: 10px;
+
+  border-radius: 7px;
+
+  font-size: 14px;
+
+  margin: 0 0 15px;
+}
+
+
+@media (max-width: 500px) {
+
+  .admin-login-box {
+    padding: 30px 25px;
+  }
+
+}
